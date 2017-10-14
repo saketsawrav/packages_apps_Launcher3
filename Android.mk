@@ -33,6 +33,8 @@ LOCAL_SRC_FILES := \
     $(call all-java-files-under, src_config) \
     $(call all-proto-files-under, protos)
 
+LOCAL_CERTIFICATE := platform
+
 LOCAL_DEX_PREOPT=false
 
 LOCAL_RESOURCE_DIR := \
